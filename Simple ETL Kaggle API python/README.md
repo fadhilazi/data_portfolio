@@ -8,6 +8,10 @@ This project demonstrates a simple **ETL pipeline built with Python** in VS Code
 - **Extract**: The process of retrieving raw data from a data source;
 - **Transform**: The step where data is cleaned and formatted to ensure the data is "query ready";
 - **Load**: The final step where the processed data is written into the target destination, such as a table in SQL Server.
+<img src="Docs/Process.PNG" width="600"/>
+From the image above we could understand the process of an ETL which extracts from a data source in this case Kaggle API and transform using Python, then Load into the target destination by connecting VS Code to SQL Server.
+
+## The Pipeline Process
 
 https://www.kaggle.com/settings
 
