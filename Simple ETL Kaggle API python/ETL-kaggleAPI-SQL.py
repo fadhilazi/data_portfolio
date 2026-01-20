@@ -48,3 +48,4 @@ engine = sal.create_engine('mssql://DESKTOP-SQALVDR\SQLEXPRESS/test?driver=ODBC+
 conn = engine.connect()
 df.to_sql('chocolate_sales', engine, if_exists='replace', index=False)
 print(f"Successfully imported {len(df)} rows into {'chocolate_sales'}.")
+
