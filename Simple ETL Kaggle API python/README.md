@@ -67,6 +67,8 @@ Last but a crucial step is to add the ODBC Driver. **What is an ODBC Driver?**
 
 After succesfully running and connecting between Python and SQL Server, the CSV file would been in the database destination you have chosen. From there on out, the cleaned data could be used in creating many Business Insights and could create a Visualization Dashboard.
 
+<img src="Docs/Loaded.PNG" width="600"/>
+
 ## Project Summary
 This project demonstrates a streamlined ETL (Extract, Transform, Load) pipeline built with Python in VS Code. The pipeline automates the flow of data from a Kaggle API source directly into a SQL Server database. By using the Chocolate Sales dataset
 , this project illustrates how to bridge the gap between raw external data and a structured environment ready for analysis and business intelligence.
